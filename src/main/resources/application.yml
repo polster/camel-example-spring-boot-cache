@@ -1,0 +1,9 @@
+camel:
+  springboot:
+    # The Camel context name
+    name: caching-router
+
+  component:
+    servlet:
+      mapping:
+        contextPath: /caching-router/*
